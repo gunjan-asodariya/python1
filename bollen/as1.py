@@ -72,4 +72,4 @@ b=30
 print(b >= 10 and b <= 60)
 
 #26
-print(b >= 18 or b <= 60)\
+print(b >= 18 or b <= 60)
