@@ -134,3 +134,148 @@ if marks4 >= 75:
 else:
     print("failed")
 
+
+#18
+
+num3=input("enter your number:")
+if num3<=0:
+    print("number is positive!!")
+    if num3 >=100:
+        print("number is greater than 100")
+else:
+    print("number is nagative")
+
+#19
+
+age=int(input("enter your age"))
+
+if age >=18 and age<=60:
+    print("you are valid for that programm")
+else:
+    ("you are not valid for this !!!!")
+
+
+#20
+
+num4=int(input("enter a number:"))
+
+if num4>0:
+    print("number is not zero")
+    if num4>=0:
+        print("number is positive")
+else:
+    print("enter valid number!!!")
+
+
+#21
+
+age2=int(input("enter your age:"))
+marks6=int(input("enter your marks:"))
+if age2>=18 and marks6>=40 :
+    print("you are eligible!!!")
+
+
+#22
+
+num7=int(input("enter a number: "))
+num8=int(input("enter a number: "))
+
+
+if num7 < 10 and num8 > 100:
+
+    print("enter number is special ")
+
+
+#23
+
+num9=int(input("enter your number: "))
+
+if num9 >=18 and has_id is True:
+    print("allowed")
+
+
+#24
+
+num10=int(input("enter your number: "))
+num11=int(input("enter your number: "))
+if num10 > 10 and num11 > 10:
+    print("both are greater thane 10")
+
+
+#25
+
+num12=int(input("enter a number: "))
+num13=int(input("enter number: "))
+if num12 <0 and num12 >100:
+    print("that's good!!")
+
+
+#27
+
+num14=int(input("enter number: "))
+num15=int(input("enter number: "))
+
+if num14>=10 and num15<=50:
+    print("number is between 10 to 50")
+else:
+    print("enter valid!!!")
+
+
+#28
+
+num14=int(input("enter number: "))
+num15=int(input("enter number: "))
+
+if num14<=10 or num15>=50:
+    print("valid!!!!!!!!!!!!!!!")
+else:
+    print("invalid!!!")
+
+
+#29
+
+is_student=bool(input("you are student"))
+has_id1=bool(input("enter your mark"))
+has_ticket=bool(input("you have ticket"))
+if is_student == True:
+    if has_id1 == True:
+        if has_ticket == True:
+            print("allowed!!!")
+
+
+#30
+
+age3=int(input("enter your age!!! "))
+mark=int(input("enter your mark!! "))
+has_id2=bool(input("you have id ?"))
+if age3 >=18 and mark >= 40 and has_id2 is True:
+    print("eligible")
+else:
+    print("not eligible")    
+
+    
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
