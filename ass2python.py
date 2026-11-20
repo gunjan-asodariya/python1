@@ -8,7 +8,7 @@ print(type(student_age))
 print(type(student_height)) 
 print(type(wheter_person_is_a_student)) 
 
-#25
+#25ye5y
 Marks=50
 Marks_py=float(Marks)
 marks=50.0
